@@ -1,7 +1,7 @@
 {
   "name": "hello-world-javascript-action",
   "version": "1.0.0",
-  "description": "",
+  "description": "This action prints \"Hello World\" or \"Hello\" + the name of a person to greet to the log.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,13 @@
   "dependencies": {
     "@actions/core": "^1.4.0",
     "@actions/github": "^5.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/vijejain/hello-world-javascript-action.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vijejain/hello-world-javascript-action/issues"
+  },
+  "homepage": "https://github.com/vijejain/hello-world-javascript-action#readme"
 }
